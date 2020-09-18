@@ -1,0 +1,2 @@
+// Get antivirus details from the computer 
+wmic /namespace:\\root\securitycenter2 path antivirusproduct
