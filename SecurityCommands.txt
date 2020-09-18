@@ -3,3 +3,4 @@ wmic /namespace:\\root\securitycenter2 path antivirusproduct
 
 // Get current logged in user deatils 
 wmic netlogin get UserId, FullName, UserType, Privileges
+wmic useraccount get AccountType, Caption, FullName, SID
